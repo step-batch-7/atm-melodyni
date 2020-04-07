@@ -14,7 +14,7 @@ unsigned int get_money(unsigned short int amount){
   return notes;
 }
 
-void print_denomination(unsigned int notes){
+void print_notes_count(unsigned int notes){
   unsigned int denominations[8] = {2000, 500, 100, 50, 20, 10, 5, 1};
   unsigned int note_count = 0;
   for(int i = 7; i >= 0; i--){

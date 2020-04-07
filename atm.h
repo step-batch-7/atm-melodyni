@@ -24,4 +24,4 @@ print
   2 notes of Rs 1
 */
 unsigned int get_money(unsigned short int);
-void print_denomination(unsigned int);
+void print_notes_count(unsigned int);
