@@ -17,5 +17,10 @@
     589 0x01011114
    2590 0x11012000
   31999 0xf3412014
+
+print
+  2 notes of Rs 2000
+  3 notes of Rs 100
+  2 notes of Rs 1
 */
 unsigned int get_money(unsigned short int);
