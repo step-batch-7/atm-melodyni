@@ -23,5 +23,6 @@ print
   3 notes of Rs 100
   2 notes of Rs 1
 */
+#include <stdio.h>
 unsigned int get_money(unsigned short int);
 void print_notes_count(unsigned int);
