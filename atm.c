@@ -7,7 +7,7 @@ unsigned int get_money(unsigned short int amount){
   if(amount <= 31999){
     for(int i = 0; i < 8; i++){
       notes = notes << 4;
-      notes += amount / denominations[i];
+      notes = notes | amount / denominations[i];
       amount = amount % denominations[i];
     }
   }
